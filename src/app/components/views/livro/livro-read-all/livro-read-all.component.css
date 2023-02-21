@@ -19,6 +19,15 @@
     
 }
 
+.voltar{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    float: left;
+    background-color: rgba(255, 0, 0, 0.695) !important;
+    font-size: 11pt;
+    width: 82px;
+}
+
 .cadastrar{
     margin-bottom: 15px;
     margin-top: 15px;
@@ -36,13 +45,8 @@ a{
 }
 
 .livro{
-    background-color: brown !important;
-    font-size: 11pt;
-   
-}
-
-.labellivro{
-    margin-left: 23px;
+    color: brown;
+    margin-left: 11px;
 }
 
 .botoes{

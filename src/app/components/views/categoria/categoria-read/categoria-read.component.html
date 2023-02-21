@@ -3,7 +3,7 @@
         <p class="titletext">Categorias</p>
     </div>
 
-    <button (click)="navegarParaCategoriaCreate()" mat-flat-button color="primary" class="mat-elevation-z8">Cadastrar Categoria</button>
+    <button (click)="navegarParaCategoriaCreate()" mat-flat-button color="primary" class="mat-elevation-z8 cadastrar">Cadastrar Categoria</button>
 
     <table mat-table class="mat-elevation-z8" class="table" [dataSource]="categorias">
 
@@ -23,10 +23,10 @@
         </ng-container>
 
         <ng-container matColumnDef="livros">
-            <th mat-header-cell *matHeaderCellDef> Livros </th>
+            <th mat-header-cell *matHeaderCellDef > <span class="labellivro"> Livros </span></th>
             <td mat-cell *matCellDef="let element"> 
-                <a href="#">
-                    <i class="material-icons livro">book</i>
+                <a routerLink="{{ element.id }}/livros">
+                  <button mat-flat-button color="primary" class="mat-elevation-z8 livro">Visualizar</button>
                 </a>
             </td>
           </ng-container>
