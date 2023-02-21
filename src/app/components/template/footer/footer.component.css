@@ -1,0 +1,56 @@
+footer{
+    height: 7%;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+}
+
+.sectionimg{
+    height: 35px;
+    width: 35px;
+    margin-left: 1.5%;
+    float: left;
+    margin-top: 0.5%;
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+}
+
+.sectiontitle{
+    height: 100%;
+    width: 120px;
+    float:left;
+    margin-left: 0.2%;
+}
+
+.title{
+    color: white;
+    font-size: 13pt;
+    font-weight: 700;
+}
+
+.sectionname{
+    float: left;
+    margin-left: 33%;
+}
+
+.text{
+    color: white;
+    font-size: 11pt;
+}
+
+.sectioncontato{
+    float:right;
+    height: 35px;
+    width: 35px;
+    margin-right: 1.6%;
+    margin-top: 0.5%;
+}
+
+.contato{
+    height: 100%;
+    width: 100%;
+}
