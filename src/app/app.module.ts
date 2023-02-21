@@ -27,6 +27,8 @@ import { LivroReadAllComponent } from './components/views/livro/livro-read-all/l
 import { LivroCreateComponent } from './components/views/livro/livro-create/livro-create.component';
 import { LivroUpdateComponent } from './components/views/livro/livro-update/livro-update.component';
 import { LivroDeleteComponent } from './components/views/livro/livro-delete/livro-delete.component';
+import { LivroReadComponent } from './components/views/livro/livro-read/livro-read.component';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,8 @@ import { LivroDeleteComponent } from './components/views/livro/livro-delete/livr
     LivroReadAllComponent,
     LivroCreateComponent,
     LivroUpdateComponent,
-    LivroDeleteComponent
+    LivroDeleteComponent,
+    LivroReadComponent
   ],
   imports: [
     BrowserModule,
@@ -59,7 +62,8 @@ import { LivroDeleteComponent } from './components/views/livro/livro-delete/livr
     MatInputModule,
     MatFormFieldModule,
     MatSnackBarModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

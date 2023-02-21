@@ -19,10 +19,10 @@
         </ng-container>
      
         <ng-container matColumnDef="livros">
-            <th mat-header-cell *matHeaderCellDef> Informação </th>
+            <th mat-header-cell *matHeaderCellDef> <span class="labellivro"> Detalhes </span> </th>
             <td mat-cell *matCellDef="let element"> 
-                <a>
-                    <i class="material-icons livro">book</i>
+                <a routerLink="{{ element.id }}/read">
+                    <button mat-flat-button color="primary" class="mat-elevation-z8 livro">Visualizar</button>
                 </a>
             </td>
           </ng-container>

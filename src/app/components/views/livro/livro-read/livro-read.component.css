@@ -1,0 +1,44 @@
+form{
+    width: 90%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+
+.home{
+    height: auto;
+    background-color: rgba(221, 217, 217, 0.954) !important;
+    padding: 15px;
+}
+
+.home2{
+    height: auto;
+    background-color: rgba(221, 217, 217, 0.954) !important;
+    padding: 15px;
+}
+
+.home3{
+    height: auto;
+    background-color: rgba(221, 217, 217, 0.954) !important;
+    padding: 15px;
+    text-align: justify;
+}
+
+.title{
+    font-size: 24pt;
+}
+
+.subtitle{
+    font-size: 18pt;
+}
+
+.subtitle2{
+    font-size: 14pt;
+}
+
+.retornar {
+    width: 70px;
+    height: 50px;
+    margin-bottom: 30px;
+    background-color: black !important;
+}
