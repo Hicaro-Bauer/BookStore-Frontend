@@ -1,0 +1,24 @@
+<div class="campo">
+    <form>
+
+        <p class="title">Atualizar Livro</p>   
+
+        <p class="label">Título</p>
+        <input type="text" [(ngModel)]="livro.titulo" [formControl]="titulo" required name="titulo" placeholder="Informe o título do livro" maxlength="100"/>
+        <p *ngIf="titulo.invalid" class="erro">{{ getMessage() }}</p>
+
+        <p class="label">Nome do Autor</p>
+        <input type="text" [(ngModel)]="livro.nome_autor" [formControl]="nome_autor" required name="nome_autor" placeholder="Informe o nome do autor" maxlength="100"/>
+        <p *ngIf="nome_autor.invalid" class="erro">{{ getMessage() }}</p>
+
+        <p class="label">Texto</p>
+        <textarea type="text" [(ngModel)]="livro.texto" [formControl]="texto" required name="texto" placeholder="Informe o texto do Livro" maxlength="2000000000"></textarea>
+        <p *ngIf="texto.invalid" class="erro">{{ getMessage() }}</p>
+
+        <div class="buttons">
+            <button (click)="update()" [disabled]="getMessage()"  mat-flat-button color="primary" class="mat-elevation-z8 cadastrar">Atualizar</button>
+            <button (click)="voltar()" mat-flat-button color="primary" class="mat-elevation-z8 voltar">Voltar</button>
+        </div>
+
+    </form>
+</div>
