@@ -19,6 +19,37 @@
     
 }
 
+button{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    float: right;
+    background-color: rgba(0, 128, 0, 0.774) !important;
+    font-size: 11pt;
+
+}
+
 .table{
     background-color: rgba(190, 188, 188, 0.61);
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.livro{
+    color: brown;
+    margin-left: 11px;
+}
+
+.botoes{
+    width: 9rem;
+}
+
+.editar{
+    color: rgba(0, 0, 255, 0.822);
+}
+
+.deletar{
+    color: rgba(255, 0, 0, 0.849);
+    margin-left: 15px; 
 }
