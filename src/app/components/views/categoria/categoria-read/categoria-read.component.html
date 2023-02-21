@@ -3,7 +3,7 @@
         <p class="titletext">Categorias</p>
     </div>
 
-    <button mat-flat-button color="primary" class="mat-elevation-z8">Cadastrar Categoria</button>
+    <button (click)="navegarParaCategoriaCreate()" mat-flat-button color="primary" class="mat-elevation-z8">Cadastrar Categoria</button>
 
     <table mat-table class="mat-elevation-z8" class="table" [dataSource]="categorias">
 

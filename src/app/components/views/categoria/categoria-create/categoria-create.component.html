@@ -1,0 +1,18 @@
+<div class="campo">
+    <form>
+
+        <p class="title">Cadastrar Categoria</p>   
+
+        <p>Nome</p>
+        <input [(ngModel)]="categoria.nome" type="text" name="nome" placeholder="Informe o nome da categoria" />
+
+        <p>Descrição</p>
+        <textarea [(ngModel)]="categoria.descricao" type="text" name="nome" placeholder="Informe a descrição da categoria"></textarea>
+        
+        <div class="buttons">
+            <button (click)="create()" mat-flat-button color="primary" class="mat-elevation-z8 cadastrar">Cadastrar</button>
+            <button (click)="voltar()" mat-flat-button color="primary" class="mat-elevation-z8 voltar">Voltar</button>
+        </div>
+
+    </form>
+</div>

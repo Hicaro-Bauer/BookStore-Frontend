@@ -1,0 +1,60 @@
+.title{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.89);
+    font-size: 16pt;
+    font-weight: 400;
+    margin-bottom: 55px;
+}
+
+.campo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+p{
+    color: white;
+    margin-top: 35px;
+    font-size: 14pt;
+}
+
+input{
+    height: 30px;
+    border-radius: 2px;
+    width: 375px;
+    font-size: 13pt;
+    padding: 5px;
+}
+
+textarea {
+    resize: none;
+    width: 375px;
+    height: 120px;
+    font-size: 13pt;
+    padding: 5px;
+}
+
+.cadastrar{
+    background-color: rgba(0, 128, 0, 0.774) !important;
+    font-size: 12pt;
+    margin: 0 auto;
+    height: 45px !important;
+    width: 110px; 
+}
+
+.voltar{
+    background-color: rgba(255, 0, 0, 0.753) !important;
+    font-size: 12pt;
+    margin: 0 auto;
+    height: 45px !important;
+    width: 110px; 
+}
+
+.buttons{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
