@@ -4,7 +4,7 @@
     </div>
 
     <button (click)="voltar()" mat-flat-button color="primary" class="mat-elevation-z8 voltar">Voltar</button>
-    <button mat-flat-button color="primary" class="mat-elevation-z8 cadastrar">Cadastrar Livro</button>
+    <button (click)="navegarParaCriarLivro()" mat-flat-button color="primary" class="mat-elevation-z8 cadastrar">Cadastrar Livro</button>
 
     <table mat-table class="mat-elevation-z8" class="table" [dataSource]="livros">
 
