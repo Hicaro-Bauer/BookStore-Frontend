@@ -1,0 +1,30 @@
+header{
+    height: 9%;
+    border: 1px solid;
+    background-color: black;
+}
+
+.sectionimg{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    margin-left: 15px;
+    float: left;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.sectiontitle{
+    height: 100%;
+    width: 120px;
+    float:left;
+}
+
+.title{
+    color: white;
+    font-size: 17pt;
+    font-weight: 700;
+}
