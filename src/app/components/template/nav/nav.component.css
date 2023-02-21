@@ -1,0 +1,32 @@
+.container{
+    height: 84%;
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+mat-sidenav {
+    background-color: rgba(128, 128, 128, 0.589);
+    width: 150px;
+    height: 100%;
+}
+
+a{
+    display: block;
+}
+
+a:hover{
+    background-color: rgba(128, 128, 128, 0.747);
+}
+
+i{
+    margin-top: 15px;
+}
+
+mat-nav-list{
+    color: white;
+}
+
+.text{
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 20px;
+}

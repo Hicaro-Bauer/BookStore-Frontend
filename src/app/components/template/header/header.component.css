@@ -1,14 +1,14 @@
 header{
     height: 9%;
     background-color: black;
-    position: fixed;
     width: 100%;
 }
 
 .sectionimg{
-    height: 50px;
-    width: 50px;
-    padding: 0.4%;
+    height: 45px;
+    width: 45px;
+    margin-top: 0.5%;
+    margin-right: 0.1%;
     margin-left: 1.5%;
     float: left;
 }
