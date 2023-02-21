@@ -1,0 +1,22 @@
+<div class="campo">
+    <form>
+
+        <p class="title">Apagar Livro</p>   
+
+        <p class="label">Título</p>
+        <input type="text" [(ngModel)]="livro.titulo" name="titulo" disabled/>
+    
+        <p class="label">Nome do Autor</p>
+        <input type="text" [(ngModel)]="livro.nome_autor" name="nome_autor" disabled/>
+
+        <p class="label">Texto</p>
+        <textarea type="text" [(ngModel)]="livro.texto"  name="texto" disabled></textarea>
+
+        <div class="buttons">
+            <button (click)="delete()" mat-flat-button color="primary" class="mat-elevation-z8 cadastrar">Apagar</button>
+            <button (click)="voltar()" mat-flat-button color="primary" class="mat-elevation-z8 voltar">Cancelar</button>
+        </div>
+
+    </form>
+</div>
+
