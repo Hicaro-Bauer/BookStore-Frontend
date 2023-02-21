@@ -19,16 +19,18 @@ a:hover{
 
 i{
     margin-top: 15px;
+    color: white !important;
 }
 
 mat-nav-list{
-    color: white;
+    color: white !important;
 }
 
 .text{
     position: absolute;
     margin-left: 7px;
     margin-top: 20px;
+    color: white;
 }
 
 mat-sidenav-content{
