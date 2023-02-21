@@ -30,3 +30,7 @@ mat-nav-list{
     margin-left: 7px;
     margin-top: 20px;
 }
+
+mat-sidenav-content{
+    height: 100%;
+}
