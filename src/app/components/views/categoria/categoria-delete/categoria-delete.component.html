@@ -1,0 +1,18 @@
+<div class="campo">
+    <form>
+
+        <p class="title">Apagar Categoria</p>   
+
+        <p>Nome</p>
+        <input [(ngModel)]="categoria.nome" type="text" name="nome" disabled/>
+
+        <p>Descrição</p>
+        <textarea [(ngModel)]="categoria.descricao" type="text" name="descricao" disabled></textarea>
+        
+        <div class="buttons">
+            <button (click)="delete()" mat-flat-button color="primary" class="mat-elevation-z8 apagar">Apagar</button>
+            <button (click)="cancel()"  mat-flat-button color="primary" class="mat-elevation-z8 voltar">Cancelar</button>
+        </div>
+
+    </form>
+</div>
