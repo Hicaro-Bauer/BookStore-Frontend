@@ -1,7 +1,7 @@
 <div class="campo">
     <form>
 
-        <p class="title">Cadastrar Categoria</p>   
+        <p class="title">Atualizar Categoria</p>   
 
         <p>Nome</p>
         <input [(ngModel)]="categoria.nome" type="text" name="nome" placeholder="Informe o nome da categoria" />
@@ -10,8 +10,8 @@
         <textarea [(ngModel)]="categoria.descricao" type="text" name="descricao" placeholder="Informe a descrição da categoria"></textarea>
         
         <div class="buttons">
-            <button (click)="create()" mat-flat-button color="primary" class="mat-elevation-z8 cadastrar">Cadastrar</button>
-            <button (click)="voltar()" mat-flat-button color="primary" class="mat-elevation-z8 voltar">Voltar</button>
+            <button (click)="update()"  mat-flat-button color="primary" class="mat-elevation-z8 cadastrar">Atualizar</button>
+            <button (click)="voltar()"  mat-flat-button color="primary" class="mat-elevation-z8 voltar">Voltar</button>
         </div>
 
     </form>
